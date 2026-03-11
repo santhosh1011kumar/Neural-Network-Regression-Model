@@ -155,11 +155,11 @@ print(f"Prediction: {prediction}")
 <img width="280" height="476" alt="image" src="https://github.com/user-attachments/assets/698055ed-1bd3-403f-9964-aaee5f9502ae" />
 
 ## OUTPUT
-<img width="855" height="296" alt="Screenshot 2026-02-26 080015" src="https://github.com/user-attachments/assets/6a8f7ed7-f91a-4ea2-a98e-3dde0a27b203" />
+![alt text](image.png)
 
 ### Training Loss Vs Iteration Plot
 
-<img width="921" height="596" alt="image" src="https://github.com/user-attachments/assets/abded97d-5562-4260-9d85-f97e42b60d4d" />
+![alt text](image-1.png)
 
 ### New Sample Data Prediction
 ```
@@ -167,7 +167,7 @@ X_n1_1 = torch.tensor([[9]], dtype=torch.float32)
 prediction = santho(torch.tensor(scaler.transform(X_n1_1), dtype=torch.float32)).item()
 print(f'Prediction: {prediction}')
 ```
-<img width="980" height="170" alt="image" src="https://github.com/user-attachments/assets/e6ca19b1-5e81-40e4-8f90-bb546d0e720a" />
+![alt text](image-2.png)
 
 ## RESULT
 
